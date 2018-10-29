@@ -1,0 +1,49 @@
+﻿main.c(65,1): warning :  multi-line comment [-Wcomment]
+main.c(65,1): warning :  //#error \
+main.c(65,1): warning :  ^
+main.c(65,1): warning : main.c: In function 'main':
+main.c(677,8): warning :  unused variable 'humi' [-Wunused-variable]
+main.c(677,8): warning :   float humi = GroveTempHumiSHT31_GetHumidity(sht31);
+main.c(677,8): warning :         ^~~~
+main.c(676,8): warning :  unused variable 'temp' [-Wunused-variable]
+main.c(676,8): warning :   float temp = (GroveTempHumiSHT31_GetTemperature(sht31) * 9/5) + 32;
+main.c(676,8): warning :         ^~~~
+  Azure Sphere Utility version 2.0.2.45571
+  Copyright (C) Microsoft Corporation. All rights reserved.
+   
+  Start time (UTC): Monday, 29 October 2018 03:40:45 
+  verbose: Creating image. 
+  verbose: Azure Sphere application image written. 
+  verbose: Appending metadata. 
+  verbose: Wrote metadata:
+    Section: Identity
+      Image Type:        Applications
+  
+      Component UID:     699bd1fc-c437-4cff-9a7a-16656913c9c8
+  
+      Image UID:         f2957fdd-4574-47ad-823b-46ce96b03b98
+  
+    Section: Signature
+      Signing Type:      ECDsa256
+  
+      Cert:              a8d5cc6958f48710140d7a26160fc1cfc31f5df0
+  
+    Section: Debug
+      Name:              AzureSphereMt3620IoTHubSample
+  
+      Built On (UTC):    10/29/2018 3:40:47 AM
+  
+      Built On (Local):  10/28/2018 11:40:47 PM
+  
+    Section: Temporary Image
+      Remove image at boot: False
+  
+      Under development: True
+  
+    Section: ABI Depends
+      Depends:           ApplicationRuntime@1
+  
+   
+  verbose: Packaging completed successfully. 
+  verbose: Output file is at: C:\DEV\Projects\AzureSphereMt3620IoTHubSample\AzureSphereMt3620IoTHubSample\bin\ARM\Debug\AzureSphereMt3620IoTHubSample.imagepackage 
+  Command completed successfully in 00:00:02.7798106. 
